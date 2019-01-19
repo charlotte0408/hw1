@@ -78,7 +78,6 @@ int draw_card (string &card, int current_total)
         return 9;
     else
         return 10;
-    
 }
 
 int main() {
