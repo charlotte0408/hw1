@@ -90,5 +90,12 @@ int draw_card (string &card, int current_total)
 
 int main() {
     
+    //declare variables
+    srand( (int) time(0) );
+    int money = 100, bet, player_total, dealer_total;
+    bool player;
+    bool dealer;
+    string card, response;
+    
     return 0;
 }
