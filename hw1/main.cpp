@@ -53,6 +53,13 @@ int draw_card (string &card, int current_total)
         suits = "Clubs";
     card = ranks + " of " + suits;
     
+    if (rank == 1)
+    {
+        if (current_total + 11 > 21)
+            return 1;
+        else
+            return 11;
+    }
 }
 
 int main() {
