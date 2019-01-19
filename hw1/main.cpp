@@ -147,7 +147,11 @@ int main() {
                 cout << "Your total is " << player_total << "!" << endl;
                 player = false;
             }
-        
+            else
+            {
+                cout << "Your total is " << player_total << ". You busted!" << endl;
+                player = false;
+            }
         }
         
         while (dealer)
