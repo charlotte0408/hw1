@@ -130,6 +130,7 @@ int main() {
         
         while (player)
         {
+            player_total = draw_card (card, player_total);
         }
         
         while (dealer)
