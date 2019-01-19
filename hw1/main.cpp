@@ -104,6 +104,15 @@ int main() {
         dealer = true;
         player = true;
         
+        cout << "You have $" << money <<". Enter bet: ";
+        cin >> bet;
+        
+        //remind player that bet need to be less or equal than their money
+        while (bet > money)
+        {
+            cout << "You only have $100 to bet. Enter bet: ";
+            cin >> bet;
+        }
         while (player)
         {
         }
