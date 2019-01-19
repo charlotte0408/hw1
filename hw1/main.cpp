@@ -99,6 +99,11 @@ int main() {
     
     while (money > 0 && money <= 1000)
     {
+        player_total = 0;
+        dealer_total = 0;
+        dealer = true;
+        player = true;
+        
         while (player)
         {
         }
