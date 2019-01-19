@@ -43,6 +43,16 @@ int draw_card (string &card, int current_total)
     else
         ranks = "King";
     
+    if (suit == 1)
+        suits = "Spades";
+    else if (suit == 2)
+        suits = "Hearts";
+    else if (suit == 3)
+        suits = "Diamonds";
+    else
+        suits = "Clubs";
+    card = ranks + " of " + suits;
+    
 }
 
 int main() {
