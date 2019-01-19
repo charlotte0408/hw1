@@ -163,6 +163,14 @@ int main() {
         
         while (dealer)
         {
+            if (dealer_total <= 16)
+            {
+                dealer_total += draw_card (card, dealer_total);
+                cout << endl<< "The dealer draws a card." << endl << "\t" << card << endl;
+                cout << "The dealer's total is " << dealer_total << "." << endl;
+            }
+            else
+                dealer = false;
         }
         
         //determine who wins
