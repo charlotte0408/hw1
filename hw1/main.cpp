@@ -189,6 +189,10 @@ int main() {
             cout << endl << "A draw! You get back your $" << bet << "." << endl << endl;
         }
     }
-        //end the game if either money equals zero or money is bigger than 1000
+    //end the game if either money equals zero or money is bigger than 1000
+    if (money == 0)
+    {
+        cout << "You have $0. GAME OVER." << endl;
+    }
     return 0;
 }
