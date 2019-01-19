@@ -15,6 +15,12 @@ using namespace std;
 
 int draw_card (string &card, int current_total);
 
+int draw_card (string &card, int current_total)
+{
+    return 0;
+}
+
+
 int main() {
     
     return 0;
