@@ -194,5 +194,9 @@ int main() {
     {
         cout << "You have $0. GAME OVER." << endl;
     }
+    else if ( money > 1000)
+    {
+        cout << "Dealer loses. You're so CLEVER." << endl;
+    }
     return 0;
 }
