@@ -113,6 +113,21 @@ int main() {
             cout << "You only have $100 to bet. Enter bet: ";
             cin >> bet;
         }
+        
+        //first draw two cards randomly
+        player_total += draw_card (card, player_total);
+        cout << endl << "Your cards are: " << endl << "\t" << card << endl;
+        
+        player_total += draw_card (card, player_total);
+        cout << "\t" << card << endl;
+        
+        cout << "Your total is " << player_total << ". Do you want another card (y/n)? ";
+        cin >> response;
+        if (response == "y" || response == "Y")
+            player = true;
+        else
+            player = false;
+        
         while (player)
         {
         }
