@@ -179,6 +179,11 @@ int main() {
             money += bet;
             cout << endl << "You win $" << bet <<"!" << endl << endl;
         }
+        else if ((dealer_total <= 21 && (player_total < dealer_total || player_total > 21)) || (dealer_total > 21 && player_total > 21))
+        {
+            money -= bet;
+            cout << endl << "Too bad. You lose $" << bet <<"." << endl << endl;
+        }
     }
         //end the game if either money equals zero or money is bigger than 1000
     return 0;
