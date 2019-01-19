@@ -133,6 +133,13 @@ int main() {
             player_total = draw_card (card, player_total);
         }
         
+        //dealer's turn to draw cards
+        dealer_total += draw_card (card, dealer_total);
+        cout << endl << "The dealer's cards are: " << endl << "\t" << card << endl;
+        dealer_total += draw_card (card, dealer_total);
+        cout << "\t" << card << endl;
+        cout << "The dealer's total is " << dealer_total << "." << endl;
+        
         while (dealer)
         {
         }
