@@ -97,5 +97,18 @@ int main() {
     bool dealer;
     string card, response;
     
+    while (money > 0 && money <= 1000)
+    {
+        while (player)
+        {
+        }
+        
+        while (dealer)
+        {
+        }
+        
+        //determine who wins
+    }
+        //end the game if either money equals zero or money is bigger than 1000
     return 0;
 }
