@@ -130,6 +130,24 @@ int main() {
         
         while (player)
         {
+            player_total += draw_card (card, player_total);
+            cout << endl << "You draw a: "  << endl << "\t" << card << endl;
+            
+            if (player_total < 21)
+            {
+                cout << "Your total is " << player_total << ". Do you want another card (y/n)? ";
+                cin >> response;
+                if (response == "y" || response == "Y")
+                    player = true;
+                if (response == "n" || response == "N")
+                    player = false;
+            }
+            else if (player_total == 21)
+            {
+                cout << "Your total is " << player_total << "!" << endl;
+                player = false;
+            }
+        
         }
         
         while (dealer)
