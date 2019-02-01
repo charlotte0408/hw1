@@ -11,3 +11,7 @@ At each round of play the player places a bet. After that, the player and the de
 ## Author of the project
 - Yihuan Huang
 - UID: 804905651
+
+## Relevant links
+[link to blackjack] 
+- https://en.wikipedia.org/wiki/Blackjack
