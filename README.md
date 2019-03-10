@@ -1,6 +1,14 @@
 # hw1
 *This project is a practice for version and is adapted from Pic10A homework.*
 
+## Hit every line of **THE GRADING RUBRIC**
+- Contain a **readme file**(thank you for looking) and this readme file includes the description, rule and revelant links of the game Blackjack.
+- Have more than 30 **commits**
+- Contain four **branches**
+- Complete more than 2 **non-fast-forward branches**
+- Manually **resolve merging conflictions** by hand 
+- Only keey track of **text files**, exclude the binary ones
+
 ## Description of the project
 - This project is a single-player version of the card game known as **Blackjack**.
 - The goal of the game is to get cards whose total value comes the closest to **21** without going over it. Getting a card total over 21 is called “busting”.
